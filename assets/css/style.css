@@ -1,0 +1,59 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.phone {
+  border: none;
+ }
+
+ .jumbotron {
+  height: 400px;
+ }
+
+#about {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#services {
+  margin: 20px 0;
+}
+
+.testheader {
+  margin: 0;
+}
+.thumbnails {
+  margin-top: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
